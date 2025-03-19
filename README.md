@@ -36,8 +36,6 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/fb375a9b-1c88-4ada-afa2-697e64e70d0f)
-![image](https://github.com/user-attachments/assets/dda6e8c9-1f00-4d33-927c-bc9452b4e58e)
-![image](https://github.com/user-attachments/assets/4f0cc663-9931-42df-87d2-68c844254ebf)
 ![image](https://github.com/user-attachments/assets/c7b7e048-a4be-4ad1-a921-e1c8b31f4851)
 
 📧 Contact
