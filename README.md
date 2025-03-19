@@ -35,8 +35,7 @@ A simple real-time chat app built using Android (Java/Kotlin) that allows users 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 📸 Screenshots
-![image](https://github.com/user-attachments/assets/fb375a9b-1c88-4ada-afa2-697e64e70d0f)
-![image](https://github.com/user-attachments/assets/c7b7e048-a4be-4ad1-a921-e1c8b31f4851)
+![image](https://github.com/user-attachments/assets/fb375a9b-1c88-4ada-afa2-697e64e70d0f)![image](https://github.com/user-attachments/assets/c7b7e048-a4be-4ad1-a921-e1c8b31f4851)
 
 📧 Contact
 Feel free to reach out at [vvijakk@gmail.com] or open an issue.
