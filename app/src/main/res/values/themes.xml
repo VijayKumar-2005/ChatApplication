@@ -1,8 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.ChatApplication" parent="Theme.AppCompat.Light">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!-- Base application theme WITHOUT the default ActionBar -->
+    <style name="Base.Theme.ChatApplication" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Disable ActionBar provided by the system -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your light theme here -->
+    </style>
+
+    <style name="Toolbar_TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="Theme.ChatApplication" parent="Base.Theme.ChatApplication" />

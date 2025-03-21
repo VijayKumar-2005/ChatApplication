@@ -7,7 +7,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 
@@ -22,16 +21,15 @@ class Login : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar?.hide()
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
-        super.onStart()
         val currentUser = FirebaseAuth.getInstance().currentUser
         if (currentUser != null && currentUser.isEmailVerified) {
             val intent = Intent(this@Login, MainActivity::class.java)
             finish()
             startActivity(intent)
         }
+        supportActionBar?.hide()
+        setContentView(R.layout.activity_login)
+        super.onStart()
         mAuth = FirebaseAuth.getInstance()
         edtEmail = findViewById(R.id.edit_email)
         edtPassword = findViewById(R.id.edit_pwd)
