@@ -9,6 +9,7 @@
             android:layout_height="50dp"
             android:text="Vijay"
             android:gravity="center"
+            android:textColor="@color/black"
             android:background="@color/blue_light"
             android:fontFamily="sans-serif-black"
             android:textSize="20sp"

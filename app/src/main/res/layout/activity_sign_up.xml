@@ -32,6 +32,7 @@
             android:id="@+id/edit_name"
             android:layout_width="match_parent"
             android:layout_height="55dp"
+            android:textColor="@color/black"
             android:layout_marginTop="10dp"
             android:background="@drawable/edt_bg"
             android:paddingStart="15dp"
@@ -42,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
+            android:textColor="@color/black"
             android:background="@drawable/edt_bg"
             android:paddingStart="15dp"
             android:hint="EMAIL" />
@@ -52,6 +54,7 @@
             android:layout_height="55dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/edt_bg"
+            android:textColor="@color/black"
             android:paddingStart="15dp"
             android:hint="PASSWORD"
             android:inputType="textPassword"/>

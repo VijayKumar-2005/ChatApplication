@@ -35,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:hint="EMAIL"
+            android:textColor="@color/black"
             android:background="@drawable/edt_bg"
             android:paddingLeft="15dp"
             android:inputType="textEmailAddress" />
@@ -47,6 +48,7 @@
             android:background="@drawable/edt_bg"
             android:paddingLeft="15dp"
             android:layout_marginTop="15dp"
+            android:textColor="@color/black"
             android:inputType="textPassword" />
 
         <Button
